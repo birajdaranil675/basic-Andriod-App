@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#80d4ff"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Activity"
+        android:textColor=" #ff6633"
+        android:layout_gravity="center"
+        android:textSize="45sp"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        />
+    <EditText
+        android:id="@+id/email"
+        android:layout_height="70dp"
+        android:layout_width="match_parent"
+        android:hint="Email"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:drawableLeft="@drawable/person"
+        android:drawablePadding="15dp"
+
+        />
+    <EditText
+        android:id="@+id/password"
+        android:layout_height="70dp"
+        android:layout_width="match_parent"
+        android:hint="Password"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="15dp"
+        />
+    <Button
+        android:id="@+id/send"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:text="SEND"
+        />
+
+</LinearLayout>

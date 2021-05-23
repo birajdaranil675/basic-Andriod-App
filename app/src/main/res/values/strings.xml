@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Basic App</string>
+
+    <string name="mainHeading">app heading</string>
+</resources>
